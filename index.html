@@ -60,6 +60,35 @@
             }
         }
 
+        .profile-pic-container {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            margin: 0 auto 2rem;
+        }
+
+        .profile-pic {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #667eea;
+            box-shadow: 0 0 30px rgba(102, 126, 234, 0.5);
+            transition: all 0.3s;
+        }
+
+        .profile-pic-container {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            margin: 0 auto 2rem;
+        }
+
+        .profile-pic-container:hover .profile-pic {
+            transform: scale(1.05);
+            box-shadow: 0 0 40px rgba(102, 126, 234, 0.8);
+        }
+
         .glitch {
             font-size: 4rem;
             font-weight: 900;
@@ -565,10 +594,17 @@
 
     <header>
         <div class="hero-content">
-            <h1 class="glitch">AI & ML Engineer</h1>
-            <p class="subtitle">Building Intelligent Systems That Scale</p>
+            <div class="profile-pic-container">
+                <img src="profile.jpeg" alt="Profile Picture" class="profile-pic">
+            </div>
+            <h1 class="glitch">Devika Rudagi</h1>
+            <p class="subtitle">AI & ML Engineer | Graduate Student in Computer Science</p>
             <p style="color: #a1a1aa; max-width: 600px; margin: 0 auto;">
-                Crafting production-ready ML pipelines, RAG systems, and predictive models that drive real-world impact
+                Machine Learning | Deep Learning | GenAI systems
+                <!-- Crafting predictive and time-series models, engineering scalable data pipelines, and deploying Retrieval-Augmented Generation (RAG) systems for enterprise knowledge that drive real-world impact. -->
+            </p>
+            <p style="color: #a1a1aa; max-width: 600px; margin: 0 auto;">
+                Actively seeking internship opportunities
             </p>
             <div class="cta-buttons">
                 <a href="#projects" class="cta-btn">View Projects</a>
@@ -667,7 +703,7 @@
         </section>
 
         <section id="projects">
-            <h2 data-text="Featured Work">Featured Work</h2>
+            <h2 data-text="Featured Work">Projects</h2>
             <div class="projects-grid">
                 <div class="project-card">
                     <div class="project-content">
@@ -808,7 +844,7 @@
                     Always interested in exciting AI/ML opportunities and collaborations
                 </p>
                 <div class="contact-grid">
-                    <a href="mailto:rudagidevika96@gmail.com" class="contact-link">
+                    <a href="mailto:drudagi2233@student.sfbu.edu" class="contact-link">
                         📧 Email
                     </a>
                     <a href="https://www.linkedin.com/in/devika-rudagi" target="_blank" class="contact-link">
