@@ -1,2 +1,2 @@
-# devikarudagi.github.io
+# devik-arudagi.github.io
 My portfolio
